@@ -34,7 +34,7 @@ constructor(){
  getUser(@Param() param:{userId:number}){
    return this.userService.show(param);
  }
- 
+ //this is for delteyyuutuyu
  @Delete('/:userId')
  deleteUser(@Param() param:{userId:number}){
   return this.userService.delete(param);
